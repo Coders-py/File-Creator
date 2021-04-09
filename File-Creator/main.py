@@ -1,0 +1,7 @@
+print("Input The Name Of The File You Want To Create, You Can Also Create A File Extension ")
+name=input()
+print("Now Enter What You Want To Put In The File")
+content=input()
+f = open(name, "a")
+f.write(content)
+f.close()
